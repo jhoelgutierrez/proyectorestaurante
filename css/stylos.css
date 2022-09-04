@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* AQUI COMIENZA EL ||| HEADER ||| */
+.header{
+    background-color: darkgreen;
+   display: flex;
+   height: 50px;
+   
+}
+.cabecera{
+    background-color: darkslategray;
+    width: 50%;
+    
+    display: flex;
+    align-items: center;
+}
+.menu{
+    background-color: rgb(209, 96, 181);
+    width: 50%;
+    
+}
+
+#logo{
+    width: auto;
+    height: 40px;
+    
+}
+#titulo{
+    
+    color: rgb(221, 212, 212);
+    
+}
+.menu{
+    display: flex;
+}
+.nav_menu{
+    margin:auto;
+}
+.lista_menu{
+    list-style: none;
+    display: flex; 
+}
+li{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(230, 154, 211, 0.801);
+    color: aliceblue;
+    border: rgba(187, 54, 187, 0.336) 2px solid;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/* AQUI COMIENZA EL ||| MAIN/CONTENEDOR PRINCIPAL ||| */
+.main{
+    background-color: blue;
+}
+.main_principal{
+    background-color: coral;
+}
+.main_aside{
+    background-color: darkkhaki;
+}
+
+
+/* AQUI COMIENZA EL ||| FOOTER ||| */
+
+.footer{
+    background-color: darkgreen;
+}
