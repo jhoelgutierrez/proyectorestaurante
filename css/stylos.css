@@ -77,5 +77,6 @@ li{
 /* AQUI COMIENZA EL ||| FOOTER ||| */
 
 .footer{
-    background-color: darkgreen;
+    background-color: rgba(68, 150, 68, 0.514);
+    padding: 50px;
 }
