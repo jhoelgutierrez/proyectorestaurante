@@ -27,7 +27,7 @@ body{
     align-items: center;
 }
 .menu{
-    background-color: rgb(209, 96, 181);
+    background-color: rgb(32, 206, 119);
     width: 50%;
     
 }
@@ -51,15 +51,23 @@ body{
 .lista_menu{
     list-style: none;
     display: flex; 
+    
+}
+li a{
+    color: aliceblue;
+    text-decoration: none;
 }
 li{
     margin: 5px;
     padding: 5px;
-    background-color: rgba(230, 154, 211, 0.801);
-    color: aliceblue;
-    border: rgba(187, 54, 187, 0.336) 2px solid;
+    background-color: rgba(16, 150, 87, 0.5);
+    
+    border: rgba(11, 139, 156, 0.336) 2px solid;
     border-radius: 5px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+li :hover{
+    color: black;
 }
 
 /* AQUI COMIENZA EL ||| MAIN/CONTENEDOR PRINCIPAL ||| */
